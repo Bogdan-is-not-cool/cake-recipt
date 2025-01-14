@@ -1,0 +1,142 @@
+.vse {
+    font-family: "Jura", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+}
+
+.vse {}
+
+.header-all {
+    background-color: rgb(141, 255, 128);
+}
+
+.logo {
+    font-family: "Roboto", sans-serif;
+    color: blue;
+    padding-left: 50px;
+    display: flex;
+    padding-top: 50px;
+}
+
+.logo-style {
+    color: rgb(255, 0, 0);
+}
+
+.main-all {}
+
+.section-one {
+    display: flex;
+    height: 675px;
+    max-width: 1200px;
+    background-image: linear-gradient(rgba(175, 178, 241, 0.7), rgba(24, 26, 77, 0.7)), url(../images/background-images.jpg);
+    background-position: center;
+}
+
+.section-one-h {
+    color: rgb(165, 118, 42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.section-two {
+    background-color: blanchedalmond;
+}
+
+.section-two-h {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.section-two-ol {
+    display: block;
+}
+
+.two-images {
+    display: flex;
+    gap: 20px;
+}
+
+.section-two-li {
+    
+    padding-bottom: 30px;
+}
+
+.footer-all {
+    background-color: orange;
+}
+
+.footer-h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.footer-all, .dec-p {
+    font-family: "Roboto", sans-serif;
+    color: blue;
+    padding-bottom: 50px;
+    text-align: center;
+}
